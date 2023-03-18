@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "mssql": "^9.1.1",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^19.7.4"
+  },
+  "name": "run-sql-queries",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": [
+      "win"
+    ]
+  },
+  "bin": {
+    "my-script": "index.js"
+  }
+}
